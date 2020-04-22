@@ -4,7 +4,7 @@
   "description": "bot discord permettant de fournir des attestations de déplacement liées à la pandémie de covid-19",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/main.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,6 @@
   "homepage": "https://github.com/lmenjoulet/AttestationBot#readme",
   "dependencies": {
     "discord.js": "^12.2.0",
-    "node-fetch": "^2.6.0",
     "pdf-lib": "^1.4.1",
     "qrcode": "^1.4.4"
   }

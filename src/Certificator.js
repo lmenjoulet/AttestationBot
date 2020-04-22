@@ -1,7 +1,6 @@
 let QRCode = require('qrcode');
 let fs = require('fs');
 const { PDFDocument, StandardFonts } = require('pdf-lib');
-const fetch = require("node-fetch");
 
 class Certificator{
     constructor(){
