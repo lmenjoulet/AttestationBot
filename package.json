@@ -1,0 +1,22 @@
+{
+  "name": "attestationbot",
+  "version": "0.0.1",
+  "description": "bot discord permettant de fournir des attestations de déplacement liées à la pandémie de covid-19",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmenjoulet/AttestationBot.git"
+  },
+  "author": "Loup Menjoulet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmenjoulet/AttestationBot/issues"
+  },
+  "homepage": "https://github.com/lmenjoulet/AttestationBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
