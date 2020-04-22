@@ -10,7 +10,7 @@
 ```console
 $ git clone https://github.com/lmenjoulet/AttestationBot.git
 ```
-coller le token discord dans ressources/token_discord.js
+coller le token discord dans ressources/token_discord.txt
 ```
 $ cd ./AttestationBot
 $ npm install
