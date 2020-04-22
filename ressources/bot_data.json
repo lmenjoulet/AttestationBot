@@ -7,6 +7,6 @@
         "chargerprofil" :
         "structure de la commande chargerprofil\n\nchargerprofil <categorie> info\nAvec <categorie> etant dans la liste suivante :\nlastname\nfirstname\nbirthday\nlieunaissance\naddress\nzipcode\ntown",
         "attestation" :
-        "fournissez une des raisons suivantes de cette manière :\nattestation <raison> \nLa liste des raisons est :\ntravail\ncourses\nsante\nfamille\nsport\njudiciaire\nmissions"
+        "il faut fournir une des raisons suivantes de cette manière :\nattestation <raison> \nLa liste des raisons est :\ntravail\ncourses\nsante\nfamille\nsport\njudiciaire\nmissions"
     }
 }

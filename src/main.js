@@ -69,10 +69,7 @@ client.on("message", async (message) => {
 
                 }
                 else{
-                    message.reply("fournissez une des raisons suivantes de cette manière :\n"+
-                                  "!attestation <raison> \n"+
-                                  "La liste des raisons est :\n"+
-                                  "travail\ncourses\nsante\nfamille\nsport\njudiciaire\nmissions");
+                    message.reply(bot_data.aide.attestation);
                 }
                 break;
 
