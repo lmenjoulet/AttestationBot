@@ -1,7 +1,12 @@
 {
-    "prefixe" : "%",
-    "commandes" :
-    [
-        "aide"
-    ]
+    "prefix" : "%",
+    "aide" :
+    {
+        "general" : 
+        "|-------------------------------------------------------|\n| affichage de l'aide générale de l'AttestationBot  |\n|-------------------------------------------------------|\n\nles commandes sont :\n[chargerprofil] pour enregistrer des informations de votre profil\n[voirprofil] pour voir les informations de votre profil que vous avez déjà renseignées\n[attestation] pour générer une attestation de déplacement",
+        "chargerprofil" :
+        "structure de la commande chargerprofil\n\nchargerprofil <categorie> info\nAvec <categorie> etant dans la liste suivante :\nlastname\nfirstname\nbirthday\nlieunaissance\naddress\nzipcode\ntown",
+        "attestation" :
+        "fournissez une des raisons suivantes de cette manière :\nattestation <raison> \nLa liste des raisons est :\ntravail\ncourses\nsante\nfamille\nsport\njudiciaire\nmissions"
+    }
 }
